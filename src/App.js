@@ -1,15 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Nav from './components/Nav'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import SpecialsSection from './components/SpecialsSection'
+import Testimonials from './components/Testimonials'
+import About from './components/About'
 
-function App() {
+
+export default function App() {
   return (
+    <>
+    <main>
     <Nav />
     <Header />
-    <Specials />
+    <SpecialsSection />
     <Testimonials />
     <About />
-    <Foot />
+    <Footer/>
+    </main>
+    </>
   );
 }
-
-export default App;
