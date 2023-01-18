@@ -9,6 +9,7 @@ button  {
     width: 150px;
     border-radius: 16px;
     border: none;
+    font-family: Karla;
     font-weight: bold;
     font-size: 18px;;
     margin-left: 40px;
@@ -27,23 +28,19 @@ button  {
   margin-bottom: 10px;
   }
 
-section {
-  display: block;
-}
-
 .header-info > h1 {
   color: #F4CE14;
-  font-size: 40px;
+  font-size: 45px;
   line-height: 11px;
   margin-left: 40px;
   margin-bottom: 20px;
   margin-top: 40px;
-
+  font-family: Karla, sans-serif;
 }
 
 .header-info > h2 {
   color: #F4CE14;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1px;
   margin-left: 40px;
   margin-top: 30px;
@@ -53,11 +50,14 @@ section {
 .header-info > p {
   max-width: 300px;
   margin-left: 40px;
-  margin-top: 35px;
+  margin-top: 25px;
   margin-bottom: 25px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: medium;
   line-height: 25px;
+  font-family: Karla, sans-serif;
+
 
 }
 
@@ -80,6 +80,7 @@ section {
   margin-right: auto;
 }
 
+
   ul.nav {
     display: flex;
     justify-content: flex-end;
@@ -89,6 +90,7 @@ section {
   ul.nav > li {
     display: inline-block;
     padding: 29px 20px;
+
   }
   ul.nav > li:hover {
     background-color: #F4CE14;
@@ -96,6 +98,10 @@ section {
   ul.nav > li > a {
     color: black;
     text-decoration: none;
+    font-family: Karla, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
   }
 
 
@@ -113,6 +119,8 @@ section.container3 {
   padding: 10px;
   margin-bottom: 10px;
   font-size: 25pt;
+  font-family: Karla, sans-serif;
+
 }
 
 button.button-menu {
@@ -131,33 +139,59 @@ button.button-menu {
 }
 
 .specials-card {
-background-color: #ccdcd6;
+background-color: #EDEFEE;
 height: 200px;
-width: 400px;
+width: auto;
 }
 
 .specials-card > h1 {
   padding-left: 40px;
+  font-family: Karla, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.specials-card > p {
+  font-family: Karla, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+
 }
   /* TESTIMONIALS */
 
 .testimonials {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  padding: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px;
+  grid-gap: 50px;
+
 }
 
 .test-title {
 text-align: center;
+font-family: Karla, sans-serif;
+font-size: 30px;
 }
 
-.testimonials > p {
-  background-color: #d5d3c9;
-  font-size: 20px;
-  width: 150px;
+
+.testimonials-card {
+  background-color: #EDEFEE;
+  width: auto;
   height: 200px;
-  padding: 30px;
 }
+.testimonials-card > p {
+  font-family: Karla, sans-serif;
+  font-size: 16px;
+  line-height: 1.5
+}
+
+.testimonials-card > h1 {
+  font-family: Karla, sans-serif;
+  padding-left: 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 /* ABOUT */
 
 .about {
@@ -179,6 +213,8 @@ text-align: center;
   .about-into > h1, p {
     max-width: 500px;
     margin-left: 40px;
+    font-family: Karla, sans-serif;
+
   }
 
   .about-into > h1 {
@@ -187,7 +223,8 @@ text-align: center;
   }
 
   .about-into > p {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: medium;
     line-height: 24px;
   }
 
@@ -205,10 +242,15 @@ text-align: center;
     height: 200px;
     color: rgb(4, 4, 4);
     margin-bottom: 20px;
+    font-family: 'Karla', 'Sans Serif';
+
   }
 
   .footer > ul, li, h4 {
     list-style: none;
+    font-family: Karla, sans-serif;
+    font-size: 12px;
+
   }
 
   .footer-img {

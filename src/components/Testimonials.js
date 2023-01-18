@@ -6,11 +6,21 @@ export default function Testimonials() {
         <h1 className='test-title'>Testimonials</h1>
 
         <section className='testimonials'>
-        <p><b>Review</b><br></br>It was great</p>
-        <p><b>Review</b><br></br>It was great</p>
-        <p><b>Review</b><br></br>It was great</p>
-        <p><b>Review</b><br></br>It was great</p>
-        <p><b>Review</b><br></br>It was great</p>
+
+        <article className='testimonials-card'>
+        <h1>Review</h1>
+        <p> It was great</p>
+        </article>
+
+        <article className='testimonials-card'>
+        <h1>Review</h1>
+        <p> It was great</p>
+        </article>
+
+        <article className='testimonials-card'>
+        <h1>Review</h1>
+        <p> It was great</p>
+        </article>
         </section>
             </>
 );
