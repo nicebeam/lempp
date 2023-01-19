@@ -20,7 +20,8 @@ export default function SpecialsSection() {
 
             <article className='specials-card'>
             <img src="Bruchetta.jpeg" alt="Bruchetta"></img>
-            <h1>Bruchetta</h1><p>$5.99</p>
+            <h1>Bruchetta</h1>
+            <p>$5.99</p>
             <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. </p>
             <p>Order a delivery</p>
             </article>
