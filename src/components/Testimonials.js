@@ -8,17 +8,17 @@ export default function Testimonials() {
         <section className='testimonials'>
 
         <article className='testimonials-card'>
-        <h1>Review</h1>
+        <h1>Rating</h1>
         <p> It was great</p>
         </article>
 
         <article className='testimonials-card'>
-        <h1>Review</h1>
+        <h1>Rating</h1>
         <p> It was great</p>
         </article>
 
         <article className='testimonials-card'>
-        <h1>Review</h1>
+        <h1>Rating</h1>
         <p> It was great</p>
         </article>
         </section>

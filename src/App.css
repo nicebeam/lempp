@@ -133,15 +133,16 @@ button.button-menu {
 .specials {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 50px;
-  padding: 40px;
+  grid-gap: 30px;
   align-items: center;
+  margin: 40px;
 }
 
 .specials-card {
 background-color: #EDEFEE;
-height: 200px;
-width: auto;
+height: 500px;
+width: 264px;
+border-radius: 16px 16px 0px 0px;
 }
 
 .specials-card > h1 {
@@ -155,8 +156,17 @@ width: auto;
   font-family: Karla, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  padding: 0px 20px 0px 0px;
+  text-align:left
 
 }
+
+.specials-card > img {
+  width: 264px;
+  height: 185px;
+  border-radius: 16px 16px 0px 0px;
+}
+
   /* TESTIMONIALS */
 
 .testimonials {
@@ -182,7 +192,7 @@ font-size: 30px;
 .testimonials-card > p {
   font-family: Karla, sans-serif;
   font-size: 16px;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
 .testimonials-card > h1 {
@@ -198,39 +208,51 @@ font-size: 30px;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   height: 100%;
-  padding: 60px;
-  background-color: #F4CE14;
-  }
+  padding: 50px;
+  background-color: #F4CE14;}
 
-.about-intro {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  height: 100%;
-  padding: 40px;
-  background-color: #F4CE14;
-  }
-
-  .about-into > h1, p {
+  .about-text > h1, p {
     max-width: 500px;
     margin-left: 40px;
     font-family: Karla, sans-serif;
 
   }
 
-  .about-into > h1 {
+  .about-text > h1 {
     font-size: 30px;
     margin-bottom: -1px;
   }
 
-  .about-into > p {
+  .about-text > p {
     font-size: 18px;
     font-weight: medium;
     line-height: 24px;
   }
 
+  .about-img {
+    max-height: 20rem;
+    position: relative;
+    top: 5rem;
+    left: 2rem;
+    margin: 1rem;
+  }
+
   .about-img > img {
   border-radius: 16px;
-  margin-left: 60px;
+  max-height:80%;
+  max-width: 100%;
+  }
+
+  .aboutimg1 {
+    position: absolute;
+    top: -6rem;
+    left: 5rem;
+  }
+
+  .aboutimg2 {
+    position:relative;
+    top: 0;
+    left: 0;
   }
 
   /* FOOTER */
@@ -249,7 +271,7 @@ font-size: 30px;
   .footer > ul, li, h4 {
     list-style: none;
     font-family: Karla, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
 
   }
 
