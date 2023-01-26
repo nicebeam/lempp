@@ -96,12 +96,7 @@ function FormikContainer() {
     name='date'
     />
 
-    <FormikControl
-    control='select'
-    label='Time'
-    name='availableTimes'
-    options={availableTimes}
-    />
+
 
     <FormikControl
     control='select'
@@ -116,7 +111,7 @@ function FormikContainer() {
     name='description'
     />
 
-    <button type='submit' className='booking-button'>Submit</button>
+    <button type='submit' aria-label='On Click' className='booking-button'>Submit</button>
     </Form>
     }
     </Formik>

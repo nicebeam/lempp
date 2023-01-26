@@ -1,4 +1,4 @@
-import { getByLabelText, render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import Booking from './Booking';
 import BookingForm from '../components/BookingForm';
 
