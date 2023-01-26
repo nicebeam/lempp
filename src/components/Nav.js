@@ -9,9 +9,8 @@ export default function Nav() {
                 <ul className='nav'>
                 <img src="logo.png" alt="Logo" width="200px" className='nav-img'></img>
                     <li><Link to="About">About</Link></li>
-                    <li><Link to="Order">Order</Link></li>
+                    <li><Link to="Order">Menu</Link></li>
                     <li><Link to="Booking">Booking</Link></li>
-                    <li><Link to="Confirmation">Confirmation</Link></li>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="Login">Login</Link></li>
                 </ul>

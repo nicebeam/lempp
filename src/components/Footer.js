@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 export default function footer() {
   return (
@@ -6,18 +7,17 @@ export default function footer() {
          <img src='footerlogo.png' alt="footer logo" height="100px" class='footer-img'></img>
           <ul className='footer-ul'>
           <h4>Navigation Map</h4>
-          <li>Home</li>
-          <li>About</li>
-          <li>Menu</li>
-          <li>Reservations</li>
-          <li>Order</li>
-          <li>Login</li>
+          <li><Link to="About">About</Link></li>
+          <li><Link to="Order">Menu</Link></li>
+          <li><Link to="Booking">Booking</Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="Login">Login</Link></li>
           </ul>
 
           <ul>
           <h4>Contact</h4>
-          <li>2395 Maldove Way,</li><li>Chicago Illinois (629)-243-6827</li>
-         <li>info@littlelemon.com</li>
+          <li>1234 Lemon Hill,</li><li>Chicago Illinois (555)-555-5555</li>
+         <li>hello@littlelemon.com</li>
           </ul>
 
           <ul>
@@ -29,3 +29,4 @@ export default function footer() {
       </footer>
   );
 };
+
